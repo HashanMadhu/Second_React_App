@@ -5,7 +5,7 @@ export default function NewSite() {
   return (
     <div>
       <div className='newsite'>
-        <span>This is a New Site</span>
+        <span className='text'>This is a New Site</span>
       </div>
     </div>
   );
