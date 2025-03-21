@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <NewSite/>
+      <NewSite project="React js"/>
+      <NewSite project="HTML,CSS"/>
+      <NewSite project="PHP"/>
       <NewContent/>
     </div>
   );
