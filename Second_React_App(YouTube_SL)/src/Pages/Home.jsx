@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <NewSite project="React js"/>
-      <NewSite project="HTML,CSS"/>
-      <NewSite project="PHP"/>
-      <NewContent/>
+      <NewSite project="React js" using="JavaScript" end="Hello"/>
+      <NewSite project="HTML" using="CSS" end="Hi"/>
+      <NewSite project="PHP"using="CSS" end="Bye"/>
+      
     </div>
   );
 }

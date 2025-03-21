@@ -6,7 +6,7 @@ export default function NewSite(props) {
   return (
     <div>
       <div className='newsite'>
-        <span className='text'>{language}{props.project}</span>
+        <span className='text'>{language}{props.project} using for {props.using} at End {props.end}</span>
       </div>
     </div>
   );
