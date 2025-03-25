@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NewOne from './Components/NewOne.jsx'
 import Home from './Pages/Home.jsx'
-import {BrowserRouter as Router,Route,Switch, BrowserRouter, Routes} from 'react-router-dom'; //install the Routing package
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; //install the Routing package
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +13,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element = {<Home/>}></Route>
+          <Route path='/' element={<Home />} ></Route>
         </Routes>
       </BrowserRouter>
     </div>
